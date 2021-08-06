@@ -7,6 +7,9 @@ import {
   platformBrowserDynamicTesting
 } from '@angular/platform-browser-dynamic/testing';
 
+declare var jQuery:any;
+declare var $:any;
+
 declare const require: {
   context(path: string, deep?: boolean, filter?: RegExp): {
     keys(): string[];
